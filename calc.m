@@ -8,4 +8,4 @@ userinput = inputdlg(prompt,dlgtitle,dims,definput);
 V1=str2double(userinput{1});
 V2=str2double(userinput{2});
 R=V1+V2;
-msgbox(['The Sum is' num2str(R)],'R');
+msgbox(['The Sum is ' num2str(R)],'R');
