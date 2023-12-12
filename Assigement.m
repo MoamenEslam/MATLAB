@@ -1,3 +1,4 @@
+% Script to calculate the voltage across a capacitor
 % Define the time values from 0 to 50 with an increment of 5 seconds
 time = 0:5:50;
 

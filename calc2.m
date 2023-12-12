@@ -1,3 +1,4 @@
+% This script demonstrates how to get user input using the inputdlg function
 % Get user input
 prompt = {'Enter the first value:', 'Enter the second value:'};
 dlgtitle = 'Input Values';

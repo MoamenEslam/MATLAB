@@ -1,3 +1,4 @@
+% This script demonstrates how to write to a file using fprintf
 % Open a file for writing
 fileID = fopen('example.txt','w');
 
