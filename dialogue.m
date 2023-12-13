@@ -1,6 +1,6 @@
 clear all
 clc
-msg={'please enter nunber'};
+msg={'please enter number'};
 title='test1';
 lineno=1;
 def={'*'};
