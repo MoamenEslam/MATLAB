@@ -12,5 +12,4 @@ end
 % Calculate roots of the polynomial using roots() function
 polynomial_roots = roots(coefficients);
 
-disp('The roots of the polynomial are:');
-disp(polynomial_roots);
+fprintf('The roots of the polynomial are: %d\n',polynomial_roots);
