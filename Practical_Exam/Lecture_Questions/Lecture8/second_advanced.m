@@ -8,6 +8,9 @@ switch x
         definput = {'20','30','50'};
         opts.Interpreter = 'tex';
         answer = str2double(inputdlg(prompt,dlgtitile,dims,definput,opts));
+        Ra=answer(1);
+        Rb=answer(2);
+        Rc=answer(3);
 
         %define the mathematical equations to convert
         R1=(Rb*Rc)/(Ra+Rb+Rc);
@@ -20,9 +23,15 @@ switch x
         fprintf('R3 is %1.3g\n',R3);
     case 2
         %define the delta resistors
-        R1=input('Enter R1 : ');
-        R2=input('Enter R2 : ');
-        R3=input('Enter R3 : ');
+        prompt={'Enter R_1 : ','Enter R_2 : ','Enter R_3 : '};
+        dlgtitile ='input';
+        dims=[1 35];
+        definput = {'20','30','50'};
+        opts.Interpreter = 'tex';
+        answer = str2double(inputdlg(prompt,dlgtitile,dims,definput,opts));
+        R1=answer(1);
+        R2=answer(2);
+        R3=answer(3);
 
         %define the mathematical equations to convert
         Ra=(R1*R2+R1*R3+R2*R3)/(R1);
